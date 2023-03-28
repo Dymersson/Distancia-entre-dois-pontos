@@ -1,0 +1,26 @@
+<DOCTYPE HTML>
+    <html>
+        <head>
+            <body>
+                <script language=javascript type ="text/javascript">
+function distancia(x1 , y1, x2, y2){
+    x1 = parseFloat(x1);
+    y1 = parseFloat(y1);
+    x2 = parseFloat(x2);
+    y2 = parseFloat(y2);
+    var d = Math.pow((x2-x1)**2 +(y2-y1)**2, 1/2);
+    return d;
+}
+    var x1 = prompt("X1: ");
+    var y1 = prompt("X2: ");
+    var x2 = prompt("Y1: ");
+    var y2 = prompt("Y2: ");          
+                
+     document.write(distancia(x1, y1, x2, y2));
+     document.write(<br>);           
+        
+     </script>
+    </body>
+    </head>
+    </html>
+    </DOCTYPE>
